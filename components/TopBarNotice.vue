@@ -1,13 +1,16 @@
 <template>
   <div  class="TopBarNotice">
     このサイトはメンテナンスされていません。最新情報は
-    <a href="https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1026260.html">新型コロナウイルス感染症に関する情報《岩手県》</a>
+    <a
+      href="https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1026260.html"
+    >新型コロナウイルス感染症に関する情報(岩手県)</a>
     または
     <a
       href="https://covid19-iwate.netlify.com/"
       target="_blank"
       rel="noopener noreferrer"
-    >岩手県　非公式　コロナウイルス感染症対策サイト</a>をご覧ください。
+    >岩手県　非公式　コロナウイルス感染症対策サイト</a>
+    をご覧ください。
   </div>
 </template>
 
