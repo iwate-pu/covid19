@@ -28,6 +28,7 @@
     </div>
     <NoScript />
     <development-mode-mark />
+    <top-bar-notice />
   </v-app>
 </template>
 
@@ -38,6 +39,7 @@ import ScaleLoader from 'vue-spinner/src/ScaleLoader.vue'
 import SideNavigation from '@/components/SideNavigation.vue'
 import NoScript from '@/components/NoScript.vue'
 import DevelopmentModeMark from '@/components/DevelopmentModeMark.vue'
+import TopBarNotice from '@/components/TopBarNotice.vue'
 
 type LocalData = {
   hasNavigation: boolean
@@ -48,6 +50,7 @@ type LocalData = {
 export default Vue.extend({
   components: {
     DevelopmentModeMark,
+    TopBarNotice,
     ScaleLoader,
     SideNavigation,
     NoScript
