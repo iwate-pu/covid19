@@ -79,23 +79,6 @@
           href="https://www.hataraku.metro.tokyo.jp/kansensyo/index.html"
           target="_blank"
           rel="noopener"
-          >{{ $t('新型コロナウイルス感染症対策雇用環境整備促進事業') }}</a
-        >
-      </h3>
-      <p>
-        {{
-          $t(
-            '感染症の拡大を理由として、国の雇用調整助成金等を活用し、非常時における勤務体制づくりなど職場環境整備に取り組む都内中小企業に奨励金を支給します（1事業所10万円）。'
-          )
-        }}
-      </p>
-    </StaticCard>
-    <StaticCard>
-      <h3>
-        <a
-          href="https://www.hataraku.metro.tokyo.jp/kansensyo/index.html"
-          target="_blank"
-          rel="noopener"
           >{{ $t('テレワーク導入モデル体験事業') }}</a
         >
       </h3>
@@ -103,23 +86,6 @@
         {{
           $t(
             'テレワーク導入を検討している中堅・中小企業等を対象に、テレワークを体験できる端末やツールを無償貸与することにより、テレワークのメリット・効果を体感できる機会を提供します。'
-          )
-        }}
-      </p>
-    </StaticCard>
-    <StaticCard>
-      <h3>
-        <a
-          href="https://www.shigotozaidan.or.jp/koyo-kankyo/joseikin/kinkyutaisaku.html"
-          target="_blank"
-          rel="noopener"
-          >{{ $t('事業継続緊急対策（テレワーク）助成金') }}</a
-        >
-      </h3>
-      <p>
-        {{
-          $t(
-            '都内中堅・中小企業に対し、テレワークの導入に必要な機器やソフトウェア等の経費を助成します（限度額250万円、助成率10/10）。ぜひご活用ください。'
           )
         }}
       </p>

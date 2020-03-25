@@ -13,7 +13,7 @@
           <img
             class="SideNavigation-HeaderLogo"
             src="/logo.svg"
-            :alt="$t('東京都')"
+            :alt="$t('岩手県')"
           />
           <div class="SideNavigation-HeaderText">
             {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
@@ -40,7 +40,7 @@
           class="SideNavigation-Language"
         >
           <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
-            {{ $t('多言語対応選択メニュー') }}
+            {{ $t('[To Be Updated] 多言語対応選択メニュー') }}
           </label>
           <LanguageSelector />
         </div>
@@ -141,7 +141,7 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
+          title: this.$t('県内の最新感染動向'),
           link: this.localePath('/')
         },
         {
@@ -157,8 +157,9 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          title: this.$t('県民の皆様へ'),
+          link:
+            'https://www.pref.iwate.jp/governor/hatsugen/1019040/1027865.html'
         },
         {
           icon: 'mdi-domain',
@@ -167,31 +168,22 @@ export default Vue.extend({
           divider: true
         },
         {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
+          title: this.$t('岩手県新型コロナウイルス感染症対策本部報'),
           link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
-        },
-        {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
+            'https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1028231.html'
         },
         {
           title: this.$t('知事からのメッセージ'),
           link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+            'https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1028223.html'
         },
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
         },
         {
-          title: this.$t('お問い合わせ先一覧'),
-          link: this.localePath('/contacts')
-        },
-        {
-          title: this.$t('東京都公式ホームページ'),
-          link: 'https://www.metro.tokyo.lg.jp/'
+          title: this.$t('岩手県公式ホームページ'),
+          link: 'https://www.pref.iwate.jp/index.html'
         }
       ]
     }
