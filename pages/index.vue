@@ -32,8 +32,6 @@
       <consultation-desk-reports-number-card />
       <metro-card />
       <agency-card />
-      <shinjuku-visitors-card />
-      <chiyoda-visitors-card />
     </v-row>
   </div>
 </template>
