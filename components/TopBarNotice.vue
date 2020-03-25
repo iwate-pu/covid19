@@ -22,7 +22,7 @@
   top: 0;
   left: 0;
   font-size: 12px;
-  z-index: 1;
+  z-index: 999;
   width: 100%;
   height: 20px;
   text-align: center;
