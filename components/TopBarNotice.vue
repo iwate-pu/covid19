@@ -1,6 +1,6 @@
 <template>
   <div class="TopBarNotice">
-    このサイトはメンテナンスされていません。最新情報は
+    このサイトは更新されていません。最新情報は
     <a
       href="https://www.pref.iwate.jp/kurashikankyou/iryou/kenkou/jouhou/1026260.html"
       target="_blank"
